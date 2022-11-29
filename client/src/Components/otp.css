@@ -1,0 +1,55 @@
+  @media only screen and (max-width: 678px) {
+  
+    label {
+      display: block;
+      float: left;
+      width: 120px;
+    }
+  
+    .card {
+      width: 100%;
+      min-width: 120px !important;
+      margin: 20px;
+    }
+
+  }
+  
+  @media only screen and (max-width: 470px) {
+    .card > form > label {
+      font-size: 1.2em !important;
+    }
+  }
+  
+  .card {
+    min-width: 360px;
+    padding: 2rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    border-radius: 4px;
+    background: rgb(0, 62, 107);
+  }
+  
+  .card > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card > form > label {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
