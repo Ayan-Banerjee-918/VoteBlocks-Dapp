@@ -1,5 +1,9 @@
 # VoteBlocks DApp
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Ayan-Banerjee-918/VoteBlocks-Dapp)
+
+__Live Website__ : <https://voteblocks.netlify.app/>
+
 ## :grey_question: What is this project about?
 
 VoteBlocks Dapp is a decentralised web 3.0 based online voting system which allow voters to vote securely and anonymously while maintaining privacy and transparency.
@@ -48,10 +52,10 @@ Use Remix Ethereum IDE or truffle migrate to compile and deploy.
 Then copy the contract address and paste in 'client/src/config.js'.
 
 * __Setup Infura__ : <br><br>
-Before running the project, create an infura account and create a ipfs project.Grab the PROJECT_ID Key and API_KEY_SECRET Key.Create a .infuraConfig file in 'clients/src/ipfs' and paste the keys as:
+Before running the project, create an infura account and create a ipfs project.Grab the PROJECT_ID Key and API_KEY_SECRET Key.<br>Create a .env file in 'clients/' and paste the keys as:
 ```javascript
-export const PROJECT_ID = "your-project-id-key"
-export const API_KEY_SECRET = "your-api-secret-key"
+VITE_PROJECT_ID="your-project-id-key" //no space before and after =
+VITE_API_KEY_SECRET="your-api-secret-key" //no space before and after =
 ```
 
 ## :handshake: Contributing
