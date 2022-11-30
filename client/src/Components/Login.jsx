@@ -314,8 +314,8 @@ const Login = () => {
         else{
         if(!window.ethereum){
             console.log('Metamask not installed')
-            return
         }
+        else{
         const accountWasChanged = (accounts) => {
             if(accounts[0]==undefined){
                 document.getElementById('walletfield').value='0x0';
@@ -332,11 +332,11 @@ const Login = () => {
         window.ethereum.request({method: 'eth_requestAccounts'}).then(accounts=>{
             console.log(accounts)
             if(accounts[0]!=undefined){
-            setAccount(accounts[0]);
-            document.getElementById('walletfield').value=accounts[0];
-            document.getElementById('wallet-id').innerText='Login';
-        }},{})
-    }},[metaBool])
+            setAccount(accounts[0])
+            document.getElementById('walletfield').value=accounts[0]
+            document.getElementById('wallet-id').innerText='Login'
+        }})
+    }}},[metaBool])
 
     return (
     <div className="flex items-center justify-center text-white">
