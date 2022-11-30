@@ -4,9 +4,9 @@ import ModelViewer from '@metamask/logo';
 class MetamaskLogo extends Component {
   componentDidMount() {
     this.viewer = ModelViewer({
-      pxNotRatio: true,
-      width: 400,
-      height: 300,
+      pxNotRatio: false,
+      width: 0.4,
+      height: 0.3,
       followMouse: true,
     });
     this.el.appendChild(this.viewer.container);

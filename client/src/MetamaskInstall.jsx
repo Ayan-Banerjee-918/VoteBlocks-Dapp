@@ -9,9 +9,9 @@ const MetamaskInstall = () => {
     const [chk,setChk]=useState(false)
 
     return (
-        <div className='flex flex-col bg-gradient-to-r from-teal-900 via-cyan-900 to-slate-900 hscreen justify-center items-center'>
+        <div className='flex flex-col bg-gradient-to-r from-teal-900 via-cyan-900 to-slate-900 w-full hscreen justify-center items-center'>
             <div>
-                <h1 className='text-3xl font-bold text-center text-cyan-100'>Oops! Seems like you do not have Metamask installed!</h1>
+                <h1 className='text-3xl font-bold text-center text-cyan-100 '>Oops! Seems like you do not have Metamask installed!</h1>
                 <div className='flex flex-col justify-center items-center p-8'><MetamaskLogo/></div>
                 <div className='flex flex-col justify-center items-center p-8'>
                     {!chk?
