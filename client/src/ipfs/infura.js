@@ -1,8 +1,7 @@
 import {create} from 'ipfs-http-client'
 import {Buffer} from 'buffer'
-import { PROJECT_ID,API_KEY_SECRET } from './.infuraConfig'
 
-const auth = 'Basic ' + Buffer.from(PROJECT_ID + ':' + API_KEY_SECRET).toString('base64')
+const auth = 'Basic ' + Buffer.from(import.meta.env.VITE_PROJECT_ID + ':' + import.meta.env.VITE_API_KEY_SECRET).toString('base64')
 const ipfsClient=async()=>{
     
     const ipfs = await create(
