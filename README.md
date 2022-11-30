@@ -27,6 +27,13 @@ VoteBlocks Dapp is a decentralised web 3.0 based online voting system which allo
 * Decentralised file storage using Infura
 * Communication with blockchain via Metamask
 
+
+## :ballot_box_with_check: Admin Login Test Details:
+* Browse to https://voteblocks.netlify.app/adminApp/adminLogin or "localhost:port/adminApp/adminLogin" <br> [NOTE: This page is only accessible if wallet address has admin rights]
+* Aadhar ID : 111111111111
+* Login Key : 5abgiy,7c3q4xb&6274Xdg0ma60=<=8cf[ee9c2f2I68ded6^4V5o<9fe-aaP64jf66v)#b068
+* Google Authenticator Setup Key : ME3DAODDMZSWKOLD
+
 ## :hammer_and_wrench: Build Setup
 * Clone the repository
 ```git
