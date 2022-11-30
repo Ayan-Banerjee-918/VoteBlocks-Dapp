@@ -33,7 +33,6 @@ const OTP=(props)=>{
 
 const OtpModal=(props)=>{
     const [otp,setOTP]=useState('')
-    const [account,setAccount]=useState('0x0')
     let status=false
     const navigate=useNavigate()
     const {loginAdmin}=AuthConsumer()
@@ -55,8 +54,6 @@ const OtpModal=(props)=>{
             UserABI.abi,
             signer
         )
-        const accounts=await window.ethereum.request({method: 'eth_requestAccounts'})
-        setAccount(accounts[0])
         await UserContract.getUserDetails().then(async(user)=>{
                 let tmp=verify2Fa(token,user.key)
                 status=tmp

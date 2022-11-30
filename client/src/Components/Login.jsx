@@ -166,9 +166,8 @@ const Popup=(props)=>{
 
 const OtpModal=(props)=>{
     const [otp,setOTP]=useState('')
-    const [account,setAccount]=useState('0x0')
     const navigate=useNavigate();
-    const {loginUser}=AuthConsumer()
+    const {loginUser,setAddressUser}=AuthConsumer()
     const location=useLocation();
     const from=location.state?.from?.pathname || "../userApp";
     const handleClick = (e,func) => {
@@ -185,8 +184,6 @@ const OtpModal=(props)=>{
             UserABI.abi,
             signer
         )
-        const accounts=await window.ethereum.request({method: 'eth_requestAccounts'})
-        setAccount(accounts[0])
         await UserContract.getUserDetails().then(async(user)=>{
             let tmp=verify2Fa(token,user.key)
             let status=tmp
@@ -198,7 +195,7 @@ const OtpModal=(props)=>{
                 let res=await props.signinUser()
                 if(res==true){
                     alert("Logged In!")
-                    loginUser(account).then(()=>{
+                    loginUser(props.address).then(()=>{
                         navigate(from,{replace:true})
                     })
                 }
@@ -330,7 +327,6 @@ const Login = () => {
         }
         window.ethereum.on('accountsChanged',accountWasChanged)
         window.ethereum.request({method: 'eth_requestAccounts'}).then(accounts=>{
-            console.log(accounts)
             if(accounts[0]!=undefined){
             setAccount(accounts[0])
             document.getElementById('walletfield').value=accounts[0]
@@ -372,7 +368,7 @@ const Login = () => {
             </form>
         </div>
         {forgot && <Popup showModal={forgot} setShowModal={setForgot}/>}
-        {acceptOTP && <OtpModal showModal={acceptOTP} setShowModal={setAcceptOTP} signinUser={signinUser}/>}
+        {acceptOTP && <OtpModal address={account} showModal={acceptOTP} setShowModal={setAcceptOTP} signinUser={signinUser}/>}
     </div>
 
   )
