@@ -1,5 +1,9 @@
 # VoteBlocks DApp
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Ayan-Banerjee-918/VoteBlocks-Dapp)
+
+__Live Website__ : <https://voteblocks.netlify.app/>
+
 ## :grey_question: What is this project about?
 
 VoteBlocks Dapp is a decentralised web 3.0 based online voting system which allow voters to vote securely and anonymously while maintaining privacy and transparency.
