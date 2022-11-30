@@ -160,10 +160,8 @@ const AdminLogin = () => {
     }
 
     const ConnectWallet = async(e)=>{
-        //e.preventDefault();
         if(document.getElementById('wallet-id').innerText=='Connect Wallet'){
             setmetaBool(metaBool+1)
-            console.log(metaBool);
         }
     }
 
