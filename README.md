@@ -1,7 +1,9 @@
 # VoteBlocks DApp
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ayan-Banerjee-918/VoteBlocks-Dapp)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e4298470-f9e7-4a7a-9a9f-3720994f4507/deploy-status)](https://app.netlify.com/sites/voteblocks/deploys)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ayan-Banerjee-918/Voteblocks-dapp?color=%237b26d1)
+![GitHub](https://img.shields.io/github/license/Ayan-Banerjee-918/Voteblocks-Dapp?color=orange)
+![Website](https://img.shields.io/website?down_color=red&down_message=Offline&up_color=%2300cf30&up_message=Online&url=https%3A%2F%2Fvoteblocks.netlify.app)
 
 __Live Website__ : <https://voteblocks.netlify.app/>
 
@@ -70,7 +72,7 @@ Please make sure to update tests as appropriate.
 
 MIT License
 
-Copyright (c) [2022] [Ayan Banerjee]
+Copyright (c) 2022 Ayan Banerjee
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
