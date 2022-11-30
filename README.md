@@ -1,6 +1,7 @@
 # VoteBlocks DApp
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ayan-Banerjee-918/VoteBlocks-Dapp)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4298470-f9e7-4a7a-9a9f-3720994f4507/deploy-status)](https://app.netlify.com/sites/voteblocks/deploys)
 
 __Live Website__ : <https://voteblocks.netlify.app/>
 
