@@ -14,8 +14,8 @@ VoteBlocks Dapp is a decentralised web 3.0 based online voting system which allo
 ## :desktop_computer: Project Framework
 
 * __Frontend__ : React JS
-* __Backend/BlockChain__ : Polygon Mumbai Testnet
-* __Contract__ : Solidity
+* __BlockChain__ : Polygon Mumbai Testnet
+* __Contract/Backend__ : Solidity
 * __IPFS__ : Infura
 * __Contract Management__ : Truffle
 
