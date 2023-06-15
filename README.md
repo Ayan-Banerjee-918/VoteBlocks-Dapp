@@ -1,9 +1,10 @@
 # VoteBlocks DApp
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Ayan-Banerjee-918/VoteBlocks-Dapp)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ayan-Banerjee-918/Voteblocks-dapp?color=%237b26d1)
-![GitHub](https://img.shields.io/github/license/Ayan-Banerjee-918/Voteblocks-Dapp?color=orange)
-![Website](https://img.shields.io/website?down_color=red&down_message=Offline&up_color=%2300cf30&up_message=Online&url=https%3A%2F%2Fvoteblocks.netlify.app)
+![GitHub repo size](https://img.shields.io/github/repo-size/Ayan-Banerjee-918/VoteBlocks-Dapp?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ayan-Banerjee-918/Voteblocks-dapp?style=for-the-badge&color=%237b26d1)
+![GitHub](https://img.shields.io/github/license/Ayan-Banerjee-918/Voteblocks-Dapp?style=for-the-badge&color=orange)
+[![Hits](https://hits.sh/github.com/Ayan-Banerjee-918/VoteBlocks-Dapp.svg?style=for-the-badge&label=VIEWS&extraCount=330)](https://hits.sh/github.com/Ayan-Banerjee-918/VoteBlocks-Dapp/)
+![Website](https://img.shields.io/website?style=for-the-badge&down_color=red&down_message=Offline&up_color=%2300cf30&up_message=Online&url=https%3A%2F%2Fvoteblocks.netlify.app)
 
 __Live Website__ : <https://voteblocks.netlify.app/>
 
